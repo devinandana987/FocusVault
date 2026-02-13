@@ -3,74 +3,72 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Segoe UI', sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
-/* Popup size */
+/* Popup body */
 body {
     width: 320px;
     height: 400px;
-    background: linear-gradient(135deg, #1e1e2f, #2c2c54);
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #ffffff;
+    background: linear-gradient(135deg, #d4fc79, #96e6a1);
 }
 
 /* Main container */
 .container {
     width: 90%;
     padding: 25px;
-    border-radius: 20px;
-    background: rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(15px);
-    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    background: #ffffff;
     text-align: center;
-    transition: 0.3s ease;
+    box-shadow: 0 10px 25px rgba(46, 204, 113, 0.25);
 }
 
 /* Heading */
 header h2 {
     font-size: 22px;
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    color: #27ae60;
     font-weight: 600;
-    letter-spacing: 0.5px;
 }
 
 /* Welcome text */
 .welcome-card p {
     font-size: 14px;
-    opacity: 0.8;
+    color: #666;
     margin-bottom: 30px;
 }
 
-/* Button container */
+/* Button area */
 .actions {
     display: flex;
     justify-content: center;
 }
 
-/* Start button */
+/* Start Button */
 .btn-start {
     padding: 12px 28px;
     font-size: 15px;
-    font-weight: 500;
+    font-weight: 600;
     border: none;
-    border-radius: 12px;
+    border-radius: 20px;
     cursor: pointer;
-    background: linear-gradient(135deg, #6c5ce7, #a29bfe);
-    color: white;
+    background: linear-gradient(135deg, #14532d, #166534);
+    color: #ffffff;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(108, 92, 231, 0.4);
+    box-shadow: 0 6px 15px rgba(20, 83, 45, 0.35);
 }
 
-/* Hover effect */
+/* Hover */
 .btn-start:hover {
     transform: translateY(-3px);
-    box-shadow: 0 8px 20px rgba(108, 92, 231, 0.6);
+    background: linear-gradient(135deg, #166534, #15803d);
+    box-shadow: 0 8px 20px rgba(20, 83, 45, 0.5);
 }
 
 /* Click effect */
 .btn-start:active {
-    transform: scale(0.96);
+    transform: scale(0.95);
 }
