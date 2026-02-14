@@ -13,7 +13,7 @@
 - Member 2: Devi Nandana K - Government Engineering College, Thrissur
 
 ### Hosted Project Link
-[mention your project hosted link here]
+https://github.com/devinandana987/FocusVault/releases/download/1.0.0/FocusVault.crx
 
 ### Project Description
 Our project is a smart Chrome extension designed to improve focused learning and productivity. It tracks study time, allows users to highlight important text from any webpage, and instantly saves it to a personal Study Vault. With AI-powered summaries and organized notes, students can revise faster, stay consistent, and manage their learning efficiently — all without leaving their browser.
