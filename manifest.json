@@ -4,7 +4,23 @@
   "version": "1.0",
   "description": "Track study time and save highlights",
 
-  "permissions": ["storage", "activeTab", "scripting"],
+  "icons": {
+    "128": "icon 1.png"
+    
+  },
+
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting",
+    "notifications"
+  ],
+  
+
+  "host_permissions": [
+  "<all_urls>",
+  "https://api.groq.com/*"
+  ],
 
   "background": {
     "service_worker": "background/background.js"
@@ -12,14 +28,13 @@
 
   "action": {
     "default_popup": "index/index.html"
-    
   },
 
   "content_scripts": [
     {
-      
-      "matches": ["https://www.youtube.com/*"],
-      "js": ["content.js"]
+      "matches": ["<all_urls>","http://*/*","https://*/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
     }
   ]
 }

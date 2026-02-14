@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Notes</title>
+    <link rel="stylesheet" href="notes.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="back-button" id="backBtn">Back</div>
+    <!-- Tabs -->
+    <div class="tabs">
+        <div class="tab active" id="notesTab">Notes</div>
+        <div class="tab" id="summaryTab">Summary</div>
+    </div>
+
+    <!-- NOTES SECTION -->
+    <div id="notesSection" class="section active-section">
+
+        <div class="top-bar">
+            <div></div>
+            <div class="icons">
+                <span id="addNote" class="icon">+</span>
+            </div>
+        </div>
+
+        <div id="notesContainer" class="notes-container"></div>
+
+    </div>
+
+    <!-- SUMMARY SECTION -->
+    <div id="summarySection" class="section">
+
+        <div class="summary-box">
+            <p id="summaryText">AI summary will appear here...</p>
+        </div>
+
+
+    </div>
+
+</div>
+
+<script src="notes.js"></script>
+</body>
+</html>
